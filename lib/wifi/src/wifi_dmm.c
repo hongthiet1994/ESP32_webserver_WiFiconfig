@@ -56,7 +56,7 @@ esp_err_t event_handler(void *ctx, system_event_t *event)
                 ip4 = ip4addr_ntoa(&event->event_info.got_ip.ip_info.ip);
                 ESP_LOGI(WIFI_DEBUG, "IP: %s",	ip4);
             display_string_debug("Connected",9,3);
-            display_string_debug(ip4,15,4);
+            display_string_debug(ip4,15,4);         
             ui32_WiFi_status = WIFI_CONNECTED;
             break;
         case SYSTEM_EVENT_STA_DISCONNECTED:

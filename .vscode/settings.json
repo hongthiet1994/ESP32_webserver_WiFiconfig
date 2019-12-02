@@ -5,6 +5,7 @@
     },
     "files.associations": {
         "esp_wifi.h": "c",
-        "freertos.h": "c"
+        "freertos.h": "c",
+        "*.txt": "c"
     }
 }
